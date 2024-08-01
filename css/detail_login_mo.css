@@ -1,0 +1,114 @@
+@media (max-width: 767px){
+
+*{margin:0; padding:0;}
+ul,ol{list-style:none;}
+a{color:inherit;text-decoration:none;}
+h1,h2,h3,h4,h5,h6{color:inherit;text-decoration:none;}
+
+.all{
+    width: 100%;
+    /* border: 2px solid red; */
+}
+.login_page{
+    width: 100%;
+    height: 100vh;
+    font-family: "Noto Sans KR", sans-serif;
+    /* border: 2px solid red; */
+}
+.green_box{
+    background: #1B371D;
+    width: 100%;
+    color:#fff;
+    height: 270px;
+    text-align: center;
+}
+.green_box img{
+    width: 50px;
+    margin-top: 20%;
+}
+.login_txt{
+    font-size: 29px;
+    font-weight: 550;
+}
+fieldset:first-of-type{
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 20%;
+    border: none;
+    display: flex;
+    flex-direction: column;
+}
+.user_id{
+    /* margin-right: 3%; */
+    color: #1B371D;
+    font-weight: 550;
+    font-size: 25px;
+}
+#user_id{
+    width: 100%;
+    height: 60px;
+    font-size: 20px;
+    margin-bottom: 6%;
+    background-color: #DCE4DC;
+    border: none;
+    border-radius: 10px;
+}
+.user_pw{
+    /* margin-right: 3%; */
+    color: #1B371D;
+    font-weight: 550;
+    font-size: 25px;
+}
+#user_pw{
+    width: 100%;
+    height: 60px;
+    font-size: 20px;
+    margin-bottom: 3%;
+    background-color: #DCE4DC;
+    border: none;
+    border-radius: 10px;
+}
+.login{
+    width: 98%;
+    height: 57px;
+    border: none;
+    border-radius: 13px;
+    /* margin-left: 5%; */
+    background: #F1CA50;
+    color: #1B371D;
+    font-size: 20px;
+    font-weight: 550;
+    margin-top: 5%;
+}
+
+fieldset:last-of-type{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 4%;
+    border: none;
+    align-items: center;
+}
+.que{
+    color: #1B371D;
+    font-size: 20px;
+    font-weight: 550;
+    margin-top: 6%;
+}
+.join{
+    background: transparent;
+    border: 2px solid #1B371D;
+    border-radius: 10px;
+    width: 50%;
+    font-size: 20px;
+    height: 59px;
+    margin-top: 5%;
+}
+
+
+
+
+    
+}
