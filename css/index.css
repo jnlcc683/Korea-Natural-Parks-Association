@@ -21,6 +21,7 @@ html{
 .all{
     width: 100%;
     /* border: 1px solid red; */
+    overflow-x:hidden;
 }
 header {
     /* border: 1px solid red;  */
@@ -69,7 +70,7 @@ header {
     border: 1px solid yellow;
     width: 95%;
     margin: 0 auto;
-    margin-top: -35%;
+    margin-top: -4%;
     display: flex;
     justify-content: space-between;
   }
@@ -195,7 +196,7 @@ header {
 .main_banner {
     /* border: 1px solid red; */
     width: 100%;
-    height: calc(100vh - 120px);
+    /* height: calc(100vh - 120px); */
     /* background: gray; */
     /* padding-top: 120px; */
     position: relative;
@@ -233,9 +234,8 @@ header {
 .main_sub_text{
     /* border: 1px solid lime; */
     font-size: 40px;
-    position: absolute;
-    left: 15%;
-    top: 38%;
+    padding-top: 71%;
+    margin-left: 16%;
     color: #fff;
     font-weight: 700;
 }
@@ -243,10 +243,8 @@ header {
     font-family: "myfont";
     font-size: 189px;
     /* border: 1px solid blue; */
-    /* display: inline-block; */
-    position: absolute;
-    left: 15%;
-    top: 57%;
+    margin-left: 15%;
+    /* margin-top: 66%; */
     color: #fff;
     line-height: 0.8;
 }
@@ -264,7 +262,7 @@ header {
     background: #1B371D;
     /* padding-left: 360px; */
     padding-top: 100px;
-    height: 120vh;
+    height: 70vh;
 }
 .act_text{
     /* border: 1px solid white; */
@@ -315,7 +313,8 @@ header {
 .img_group{
     /* border: 1px solid orange; */
     width: 50%;
-    margin-left: 42%;
+    position: absolute;
+    right: 4%;
 }
 
 
