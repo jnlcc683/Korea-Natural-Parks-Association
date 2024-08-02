@@ -248,20 +248,20 @@ header {
     color: #fff;
     font-weight: 700;
     position: absolute;
-    top: 36%;
+    top: 25%;
     left: 16%;
 }
 .main_text {
     font-family: "myfont";
     font-size: 189px;
-    border: 1px solid blue;
+    border: 1px solid red;
     /* margin-left: 15%; */
     /* margin-top: 66%; */
     color: #fff;
     line-height: 0.8;
     position: absolute;
     left: 16%;
-    top: 54%;
+    top: 47%;
 }
 
 
