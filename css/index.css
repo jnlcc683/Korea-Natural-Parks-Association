@@ -241,21 +241,27 @@ header {
     /* box-sizing: border-box; */
 }
 .main_sub_text{
-    /* border: 1px solid lime; */
+    border: 1px solid lime;
     font-size: 40px;
-    padding-top: 50%;
-    margin-left: 16%;
+    /* padding-top: 50%; */
+    /* margin-left: 16%; */
     color: #fff;
     font-weight: 700;
+    position: absolute;
+    top: 36%;
+    left: 16%;
 }
 .main_text {
     font-family: "myfont";
     font-size: 189px;
-    /* border: 1px solid blue; */
-    margin-left: 15%;
+    border: 1px solid blue;
+    /* margin-left: 15%; */
     /* margin-top: 66%; */
     color: #fff;
     line-height: 0.8;
+    position: absolute;
+    left: 16%;
+    top: 54%;
 }
 
 
