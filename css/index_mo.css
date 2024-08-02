@@ -20,6 +20,7 @@ html{
 .all{
     width: 100%;
     /* border: 1px solid red; */
+    overflow: hidden;
 }
 header{
         /* border: 1px solid red; */
@@ -55,8 +56,6 @@ header{
 /* gnb 삼단바 메뉴 */
 .sideGnb {
     background: #1B371D;
-    /* width: 1000px; */
-    height: 960px;
     /* border: 1px solid red; */
     position: fixed;
     right: 0;
@@ -65,14 +64,33 @@ header{
     transition: all 0.3s ease 0s;
     z-index: 10;
     height: 100%;
-    display: flex;
+    /* display: flex; */
+    flex-direction: column;
     width: 100%;
+    height: 100%;
     align-items: center;
     justify-content: center;
 }
   .sideGnb.on{
     transform: translateX(0%);
   }
+  .sideGnb_group{
+    border: 1px solid white;
+    width: 96%;
+    margin-top: 2%;
+    margin: 0 auto;
+    margin-top: 2%;
+  }
+
+  .top{
+    border: 1px solid yellow;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 13%;
+    display: flex;
+    justify-content: space-between;
+  }
+
   .sideGnbTop {
     width: 80%;
     /* border: 2px solid yellow; */
@@ -80,14 +98,16 @@ header{
     /* margin-left: 100px; */
     /* height: 830px; */
     position:relative;
-    margin-top: 14%;
+    margin-top: 3%;
 }
 .sideGnbMenu {
-    /* border: 1px solid white; */
-    /* display: flex; */
-    position: relative;
-    /* margin-top: 80px; */
-    /* height: 830px; */
+    border: 1px solid red;
+    width: 100%;
+    margin-top: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .sideGnbMenu>li {
     font-size: 20px;
@@ -109,14 +129,13 @@ header{
   }
   .sideGnbMenu>li>a {
     border-right: 2px solid white;
-    width: 140px;
+    width: 300px;
     /* height: 210px; */
     /* background: #1B371D; */
     color: #F0CA50;
     display: flex;
-    /* padding-top: 23px; */
-    font-size: 21px;
-    /* margin-top: 40px; */
+    font-size: 37px;
+    margin-bottom: 8%;
     transition: all 0.4s ease 0s;
 }
   
@@ -136,7 +155,6 @@ header{
 .sideGnbMenu>li>ul>li {
     /* border: 1px solid white; */
     padding: 8px 0;
-    font-size: 15px;
 }
 
 
@@ -155,22 +173,19 @@ header{
     border: none;
     background: none;
     display: inline-block;
-    position: absolute;
-    right: -33px;
-    top: -131px;
+    /* position: absolute; */
+    right: -148px;
+    top: -223px;
     font-size: 30px;
     cursor: pointer;
   }
   .login_btn{
     color: #fff;
-    font-size: 20px;
+    font-size: 23px;
     font-weight: 500;
-    position: absolute;
-    left: 10%;
-    top: 7%;
     border: 1px solid white;
     border-radius: 10px;
-    width: 90px;
+    width: 130px;
     height: 50px;
     display: flex;
     justify-content: center;
@@ -400,8 +415,8 @@ header{
     top: 0;
 }
 .inner_content{
-    /* width: 1190px; * */
     /* border: 1px solid red; */
+    width: 90%;
     height: 800px;
     display: flex;
     justify-content: center;
@@ -519,9 +534,9 @@ header{
     width: 100%;
     display: flex;
     flex-direction: column;
-    padding-bottom: 18%;
+    padding-bottom: 248%;
     position: relative;
-    height: 150vh;
+    /* height: 150vh; */
 }
 .btns_inner_content{
     /* border: 2px solid purple; */
@@ -542,28 +557,30 @@ header{
         font-weight: 600;
         font-size: 29px;
         margin-bottom: 10%;
-        margin-left: 5%;
+        width: 100%;
+        text-align: center;
 }
 .btns_desc{
     font-size: 22px;
     /* border: 1px solid green; */
     display: inline-block;
     font-weight: 700;
-    width: 266px;
-    height: 78px;
-    margin-left: 5%;
+    width: 100%;
+    /* height: 78px; */
+    /* margin-left: 5%; */
+    text-align: center;
 }
 .community{
-    margin-top: 36%;
+    margin-top: 15%;
     border: 3px solid #1B371D;
     display: inline-block;
-    width: 70%;
+    width: 79%;
     height: 60px;
     color: #1B371D;
     background: none;
     font-size: 18px;
     font-weight: 600;
-    margin-left: 5%;
+    margin-left: 10%;
 }
 
 .btns_group{
@@ -579,13 +596,13 @@ header{
 .join{
     /* border: 1px solid black; */
     position: absolute;
-    left: 5%;
-    top: 52%;
+    left: 10%;
+    top: 32%;
 }
 .join_box{
     /* border: 2px solid blue;  */
-    width: 150px;
-    height: 150px;
+    width: 270px;
+    height: 270px;
     /* margin-top: 60%; */
     /* margin-right: 10%; */
     background: #1B371D;
@@ -618,14 +635,14 @@ header{
 .library{
     /* border: 1px solid red; */
     position: absolute;
-    left: 5%;
-    top: 67%;
+    left: 10%;
+    top: 52%;
 }
 .library_box{
     /* border: 2px solid blue;  */
     border: none;
-    width: 150px;
-    height: 150px;
+    width: 270px;
+    height: 270px;
     /* margin-top: 150%; */
     /* margin-right: 92%; */
     /* background: #1B371D; */
@@ -659,13 +676,13 @@ header{
 .email{
     /* border: 1px solid blue; */
     position: absolute;
-    left: 5%;
-    top: 82%;
+    left: 10%;
+    top: 72%;
 }
 .email_box{
         /* border: 2px solid blue; */
-        width: 150px;
-        height: 150px;
+        width: 270px;
+        height: 270px;
         background: white;
         color: black;
         display: flex;
@@ -788,6 +805,5 @@ header{
         margin-top: 5%;
         font-weight: 550;
     }
-
 
 }

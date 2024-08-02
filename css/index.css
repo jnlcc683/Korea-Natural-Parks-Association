@@ -241,7 +241,7 @@ header {
     /* box-sizing: border-box; */
 }
 .main_sub_text{
-    border: 1px solid lime;
+    /* border: 1px solid lime; */
     font-size: 40px;
     /* padding-top: 50%; */
     /* margin-left: 16%; */
@@ -254,7 +254,7 @@ header {
 .main_text {
     font-family: "myfont";
     font-size: 189px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     /* margin-left: 15%; */
     /* margin-top: 66%; */
     color: #fff;
@@ -670,7 +670,7 @@ header {
     /* width: 23%; */
     height: 300px;
 }
-}
+
 .email_box{
     /* border: 2px solid blue; */
     width: 280px;
@@ -714,8 +714,8 @@ footer {
     width: 100%;
     background: url(../img/footer_bg.png) no-repeat 50% 50% / cover;
     z-index: 10;
-    padding-top: 430px;
-    padding-bottom: 80px;
+    /* padding-top: 430px;
+    padding-bottom: 80px; */
 }
 .logo_foot_box{
     /* border: 1px solid yellow; */
@@ -809,4 +809,6 @@ address {
     padding-top: 3%;
     text-align: center;
     font-weight: 550;
+}
+
 }
