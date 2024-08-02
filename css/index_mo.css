@@ -590,16 +590,6 @@ header{
     /* margin-left: 10%; */
 }
 
-.btns_group{
-    /* border: 1px solid red; */
-    width: 800px;
-    height: 550px;
-    /* margin-left: 450px; */
-    display: flex;
-    margin-top: 150px;
-    position: relative;
-    margin-left: 100px;
-}
 .join{
     /* border: 1px solid black; */
     width: 100%;
@@ -610,7 +600,7 @@ header{
 }
 .join_box{
     /* border: 2px solid blue;  */
-    width: 270px;
+    width: 90%;
     height: 270px;
     /* margin-top: 60%; */
     /* margin-right: 10%; */
@@ -646,7 +636,7 @@ header{
 }
 
 .library{
-    /* border: 1px solid red; */
+    /* border: 1px solid black; */
     width: 100%;
     display: flex;
     justify-content: center;
@@ -656,7 +646,7 @@ header{
 .library_box{
     /* border: 2px solid blue;  */
     border: none;
-    width: 270px;
+    width: 90%;
     height: 270px;
     /* margin-top: 150%; */
     /* margin-right: 92%; */
@@ -702,7 +692,7 @@ header{
 }
 .email_box{
     /* border: 2px solid blue; */
-    width: 270px;
+    width: 90%;
     height: 270px;
     background: white;
     color: black;
