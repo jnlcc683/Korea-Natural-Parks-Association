@@ -637,9 +637,9 @@ header{
     margin-bottom: 20%;
 }
 .join_box_title{
+    border: 1px solid pink;
     width: 100%;
     text-align: center;
-    border: 1px solid pink;
     font-family: "myfont";
     font-size: 33px;
     font-weight: 700;
@@ -685,7 +685,7 @@ header{
 .library_box_title{
     width: 100%;
     text-align: center;
-    border: 1px solid red;
+    border: 1px solid lime;
     font-family: "myfont";
     font-size: 33px;
     font-weight: 700;
@@ -715,7 +715,7 @@ header{
     /* padding: 0 2px; */
 }
 .email_box_desc{
-    border: 1px solid blue;
+    border: 1px solid orange;
     width: 100%;
     font-family: "myfont";
     font-size: 20px;
@@ -742,7 +742,7 @@ header{
         height: 80vh;
         width: 100%;
         background: url("../img/footer_bg.png") no-repeat 50% 50% / cover;
-        padding-bottom: 30%;
+        padding-bottom: 100%;
     }
     .logo_foot{
         margin-left: 10%;
