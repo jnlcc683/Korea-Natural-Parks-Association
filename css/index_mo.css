@@ -730,13 +730,13 @@ header{
     /* footer */
     footer{
         /* border: 1px solid red; */
-        padding-bottom: 70%;
+        padding-bottom: 50%;
         width: 100%;
         background: url(../img/footer_bg.png) no-repeat 55% 50% / cover;
     }
     .logo_foot{
         margin-left: 10%;
-        padding-top: 80%;
+        padding-top: 59%;
     }
     
     .footer_box{
