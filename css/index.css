@@ -278,6 +278,7 @@ header {
     /* padding-left: 360px; */
     padding-top: 100px;
     height: 70vh;
+    position: relative;
 }
 .act_text{
     /* border: 1px solid white; */
@@ -312,7 +313,7 @@ header {
     padding-left: 16%;
 }
 .act_btn {
-    margin-top: 5%;
+    margin-top: 2%;
     border: 3px solid #F0CA50;
     display: inline-block;
     width: 366px;
@@ -330,6 +331,7 @@ header {
     width: 50%;
     position: absolute;
     right: 4%;
+    top: 65%;
 }
 
 
@@ -426,6 +428,10 @@ header {
     /* top: 40px; */
     /* left: 50px; */
 }
+.content_group dl{
+    /* border:1px solid yellow; */
+    padding-top: 5%;
+}
 .content_group>dl>dt{
     color: rgb(172, 172, 172);
     font-size: 50px;
@@ -434,7 +440,7 @@ header {
     cursor: pointer;
     transition: all 0.2s ease 0s;
     margin-left: 14%;
-    margin-top: 6%;
+    /* margin-top: 6%; */
 }
 .content_group>dl>dt:hover{
     color: #F0CA50;
@@ -713,14 +719,13 @@ footer {
     /* height: 1000px; */
     width: 100%;
     background: url(../img/footer_bg.png) no-repeat 50% 50% / cover;
-    z-index: 10;
-    /* padding-top: 430px;
-    padding-bottom: 80px; */
+    padding-bottom: 20%;
 }
 .logo_foot_box{
     /* border: 1px solid yellow; */
     width: 100%;
     text-align: center;
+    padding-top: 40%;
 }
 .logo_foot{
     /* border: 1px solid white; */
