@@ -645,19 +645,18 @@ header{
 }
 .library_box{
     /* border: 2px solid blue;  */
-    border: none;
     width: 90%;
     height: 270px;
-    /* margin-top: 150%; */
-    /* margin-right: 92%; */
-    /* background: #1B371D; */
-    background: white;
-    color: #1B371D;
+    /* margin-top: 60%; */
+    /* margin-right: 10%; */
+    background: #1B371D;
+    color: #fff;
     /* display: flex; */
     flex-direction: column;
     justify-content: flex-start;
+    border: none;
     box-shadow: 5px 5px 5px #c2c0c0;
-    /* margin-left: 80%; */
+    /* margin-left: 50%; */
     /* padding: 0 2px; */
 }
 .library_box_desc{
@@ -691,17 +690,19 @@ header{
     margin-top: 30%;
 }
 .email_box{
-    /* border: 2px solid blue; */
+    /* border: 2px solid blue;  */
     width: 90%;
     height: 270px;
-    background: white;
-    color: black;
+    /* margin-top: 60%; */
+    /* margin-right: 10%; */
+    background: #1B371D;
+    color: #fff;
     /* display: flex; */
     flex-direction: column;
     justify-content: flex-start;
     border: none;
     box-shadow: 5px 5px 5px #c2c0c0;
-    /* margin-left: -150%; */
+    /* margin-left: 50%; */
     /* padding: 0 2px; */
 }
 .email_box_desc{
