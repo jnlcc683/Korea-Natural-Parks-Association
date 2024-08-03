@@ -720,13 +720,14 @@ footer {
     /* height: 1000px; */
     width: 100%;
     background: url(../img/footer_bg.png) no-repeat 50% 50% / cover;
-    padding-bottom: 20%;
+    z-index: 10;
+    padding-top: 430px;
+    padding-bottom: 80px;
 }
 .logo_foot_box{
     /* border: 1px solid yellow; */
     width: 100%;
     text-align: center;
-    padding-top: 40%;
 }
 .logo_foot{
     /* border: 1px solid white; */
