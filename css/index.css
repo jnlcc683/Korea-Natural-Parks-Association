@@ -277,8 +277,9 @@ header {
     background: #1B371D;
     /* padding-left: 360px; */
     padding-top: 100px;
-    height: 70vh;
+    /* height: 70vh; */
     position: relative;
+    padding-bottom: 10%;
 }
 .act_text{
     /* border: 1px solid white; */
@@ -313,7 +314,7 @@ header {
     padding-left: 16%;
 }
 .act_btn {
-    margin-top: 2%;
+    margin-top: 6%;
     border: 3px solid #F0CA50;
     display: inline-block;
     width: 366px;
@@ -331,7 +332,7 @@ header {
     width: 50%;
     position: absolute;
     right: 4%;
-    top: 65%;
+    top: 75%;
 }
 
 
