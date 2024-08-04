@@ -31,163 +31,177 @@ header{
   padding-top: 10%;
 }
 .main_logo{
-  /* border: 1px solid white; */
+/* border: 1px solid white; */
 }
 .logo{
-  /* border: 1px solid #fff;  */
-  width: 57%;
-  margin-left: 9%;
-  /* margin-top: 30px; */
-  display: inline-block;
-  /* padding-top: 7%; */
-  height: 50px;
+/* border: 1px solid #fff;  */
+width: 57%;
+margin-left: 9%;
+/* margin-top: 30px; */
+display: inline-block;
+/* padding-top: 7%; */
+height: 50px;
 }
 .btn_gnb_menu {
-  background: none;
-  width: 9%;
-  height: 50px;
-  border: none;
-  cursor: pointer;
-  margin-right: 8%;
-  /* padding-top: 2.5%;*/
-}    
+background: none;
+width: 9%;
+height: 50px;
+border: none;
+cursor: pointer;
+margin-right: 8%;
+/* padding-top: 2.5%;*/
+}
 
 /* gnb 삼단바 메뉴 */
 .sideGnb {
-  background: #1B371D;
-  /* width: 1000px; */
-  height: 960px;
-  /* border: 1px solid red; */
-  position: fixed;
-  right: 0;
-  top: 0;
-  transform: translateX(100%);
-  transition: all 0.3s ease 0s;
-  z-index: 10;
-  height: 100%;
-  display: flex;
-  width: 100%;
-  align-items: center;
-  justify-content: center;
+background: #1B371D;
+/* border: 1px solid red; */
+position: fixed;
+right: 0;
+top: 0;
+transform: translateX(100%);
+transition: all 0.3s ease 0s;
+z-index: 10;
+height: 100%;
+/* display: flex; */
+flex-direction: column;
+width: 100%;
+height: 100%;
+align-items: center;
+justify-content: center;
 }
 .sideGnb.on{
-  transform: translateX(0%);
+transform: translateX(0%);
 }
+.sideGnb_group{
+border: 1px solid white;
+width: 96%;
+margin-top: 2%;
+margin: 0 auto;
+margin-top: 2%;
+}
+
+.top{
+border: 1px solid yellow;
+width: 100%;
+margin: 0 auto;
+margin-top: 13%;
+display: flex;
+justify-content: space-between;
+}
+
 .sideGnbTop {
-  width: 80%;
-  /* border: 2px solid yellow; */
-  /* margin-top: 41px; */
-  /* margin-left: 100px; */
-  /* height: 830px; */
-  position:relative;
-  margin-top: 14%;
+width: 80%;
+/* border: 2px solid yellow; */
+/* margin-top: 41px; */
+/* margin-left: 100px; */
+/* height: 830px; */
+position:relative;
+margin-top: 3%;
 }
 .sideGnbMenu {
-  /* border: 1px solid white; */
-  /* display: flex; */
-  position: relative;
-  /* margin-top: 80px; */
-  /* height: 830px; */
+border: 1px solid red;
+width: 100%;
+margin-top: 30%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 }
 .sideGnbMenu>li {
-  font-size: 20px;
-  /* width: 898px; */
-  /* border: 3px solid red; */
-  display: flex;
-  /* justify-content: center; */
-  /* align-items: center; */
-  font-weight: 650;
-  transition: all 0.3s ease 0s;
-  /* height: 300px; */
-  margin-bottom: 20px;
+font-size: 20px;
+/* width: 898px; */
+/* border: 3px solid red; */
+display: flex;
+/* justify-content: center; */
+/* align-items: center; */
+font-weight: 650;
+transition: all 0.3s ease 0s;
+/* height: 300px; */
+margin-bottom: 20px;
 }
 .sideGnbMenu>li:last-of-type{
-  margin-bottom: 0px;
+margin-bottom: 0px;
 }
 .sideGnbMenu>li:hover{
-  color: #F0CA50;
+color: #F0CA50;
 }
 .sideGnbMenu>li>a {
-  border-right: 2px solid white;
-  width: 140px;
-  /* height: 210px; */
-  /* background: #1B371D; */
-  color: #F0CA50;
-  display: flex;
-  /* padding-top: 23px; */
-  font-size: 21px;
-  /* margin-top: 40px; */
-  transition: all 0.4s ease 0s;
+border-right: 2px solid white;
+width: 300px;
+/* height: 210px; */
+/* background: #1B371D; */
+color: #F0CA50;
+display: flex;
+font-size: 37px;
+margin-bottom: 8%;
+transition: all 0.4s ease 0s;
 }
 
 /* .menu_title3:hover{
-  transform: scale(1.05)
+transform: scale(1.05)
 } */
 
 
 
 .sideGnbMenu>li>ul {
-  border-left: 1px solid white;
-  padding-left: 20px;
-  color: #fff;
-  font-weight: 400;
+border-left: 1px solid white;
+padding-left: 20px;
+color: #fff;
+font-weight: 400;
 }
 
 .sideGnbMenu>li>ul>li {
-  /* border: 1px solid white; */
-  padding: 8px 0;
-  font-size: 15px;
+/* border: 1px solid white; */
+padding: 8px 0;
 }
 
 
 
 
 .top_close_btn{
-  width: 100px;
-  height: 50px;
-  font-size: 20px;
-  background: transparent;
-  border-radius: 50px;
-  /* transition: all 0.3s ease 0s; */
-  color: #F0CA50;
-  font-weight: 450;
-  /* border: 2px solid #0B4BF0; */
-  border: none;
-  background: none;
-  display: inline-block;
-  position: absolute;
-  right: -33px;
-  top: -131px;
-  font-size: 30px;
-  cursor: pointer;
+width: 100px;
+height: 50px;
+font-size: 20px;
+background: transparent;
+border-radius: 50px;
+/* transition: all 0.3s ease 0s; */
+color: #F0CA50;
+font-weight: 450;
+/* border: 2px solid #0B4BF0; */
+border: none;
+background: none;
+display: inline-block;
+/* position: absolute; */
+right: -148px;
+top: -223px;
+font-size: 30px;
+cursor: pointer;
 }
 .login_btn{
-  color: #fff;
-  font-size: 20px;
-  font-weight: 500;
-  position: absolute;
-  left: 10%;
-  top: 7%;
-  border: 1px solid white;
-  border-radius: 10px;
-  width: 90px;
-  height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+color: #fff;
+font-size: 23px;
+font-weight: 500;
+border: 1px solid white;
+border-radius: 10px;
+width: 130px;
+height: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
 
 }
 
 
 .btn_gnb_menu {
-  background: none;
-  width: 35px;
-  height: 50px;
-  border: none;
-  margin-right: 3%;
-  right: 60px;
-  top: 28px;
-  cursor: pointer;
+background: none;
+width: 35px;
+height: 50px;
+border: none;
+margin-right: 3%;
+right: 60px;
+top: 28px;
+cursor: pointer;
 }
 
 
@@ -327,17 +341,17 @@ header{
     display: block;
 }
 .tab_menu>dd{
-    /* border: 2px solid white;  */
-    background: #102112;
-    border-radius: 20px;
-    padding-top: 20px;
-    width: 100%;
-    display: grid;
-    position: absolute;
-    left: 0;
-    top: 90px;
-    display: none;
-    height: 1220px;
+  /* border: 2px solid white;  */
+  background: #102112;
+  border-radius: 20px;
+  padding-top: 20px;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 5%;
+  left: 0;
+  top: 90px;
+  display: none;
+  height: 1220px;
 }
 .list{
     display: grid;
@@ -370,13 +384,13 @@ header{
 /* footer */
 footer{
   /* border: 1px solid red; */
-  height: 80vh;
+  padding-bottom: 50%;
   width: 100%;
-  background: url("../img/footer_bg.png") no-repeat 50% 50% / cover;
+  background: url(../img/footer_bg.png) no-repeat 55% 50% / cover;
 }
 .logo_foot{
   margin-left: 10%;
-  padding-top: 93%;
+  padding-top: 59%;
 }
 
 .footer_box{
