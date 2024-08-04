@@ -4,6 +4,7 @@
         width: 100%;
         font-family: "Noto Sans KR", sans-serif;
         color: #fff;
+        overflow: hidden;
     }
     header{
         /* border: 1px solid red; */
@@ -39,8 +40,6 @@
 /* gnb 삼단바 메뉴 */
 .sideGnb {
     background: #1B371D;
-    /* width: 1000px; */
-    height: 960px;
     /* border: 1px solid red; */
     position: fixed;
     right: 0;
@@ -49,14 +48,33 @@
     transition: all 0.3s ease 0s;
     z-index: 10;
     height: 100%;
-    display: flex;
+    /* display: flex; */
+    flex-direction: column;
     width: 100%;
+    height: 100%;
     align-items: center;
     justify-content: center;
 }
   .sideGnb.on{
     transform: translateX(0%);
   }
+  .sideGnb_group{
+    border: 1px solid white;
+    width: 96%;
+    margin-top: 2%;
+    margin: 0 auto;
+    margin-top: 2%;
+  }
+
+  .top{
+    border: 1px solid yellow;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 13%;
+    display: flex;
+    justify-content: space-between;
+  }
+
   .sideGnbTop {
     width: 80%;
     /* border: 2px solid yellow; */
@@ -64,14 +82,16 @@
     /* margin-left: 100px; */
     /* height: 830px; */
     position:relative;
-    margin-top: 14%;
+    margin-top: 3%;
 }
 .sideGnbMenu {
-    /* border: 1px solid white; */
-    /* display: flex; */
-    position: relative;
-    /* margin-top: 80px; */
-    /* height: 830px; */
+    border: 1px solid red;
+    width: 100%;
+    margin-top: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .sideGnbMenu>li {
     font-size: 20px;
@@ -93,14 +113,13 @@
   }
   .sideGnbMenu>li>a {
     border-right: 2px solid white;
-    width: 140px;
+    width: 300px;
     /* height: 210px; */
     /* background: #1B371D; */
     color: #F0CA50;
     display: flex;
-    /* padding-top: 23px; */
-    font-size: 21px;
-    /* margin-top: 40px; */
+    font-size: 37px;
+    margin-bottom: 8%;
     transition: all 0.4s ease 0s;
 }
   
@@ -120,7 +139,6 @@
 .sideGnbMenu>li>ul>li {
     /* border: 1px solid white; */
     padding: 8px 0;
-    font-size: 15px;
 }
 
 
@@ -139,22 +157,19 @@
     border: none;
     background: none;
     display: inline-block;
-    position: absolute;
-    right: -33px;
-    top: -131px;
+    /* position: absolute; */
+    right: -148px;
+    top: -223px;
     font-size: 30px;
     cursor: pointer;
   }
   .login_btn{
     color: #fff;
-    font-size: 20px;
+    font-size: 23px;
     font-weight: 500;
-    position: absolute;
-    left: 10%;
-    top: 7%;
     border: 1px solid white;
     border-radius: 10px;
-    width: 90px;
+    width: 130px;
     height: 50px;
     display: flex;
     justify-content: center;
@@ -249,13 +264,13 @@
 
     footer{
         /* border: 1px solid red; */
-        height: 80vh;
+        padding-bottom: 50%;
         width: 100%;
-        background: url("../img/footer_bg.png") no-repeat 50% 50% / cover;
+        background: url(../img/footer_bg.png) no-repeat 55% 50% / cover;
     }
     .logo_foot{
         margin-left: 10%;
-        padding-top: 93%;
+        padding-top: 59%;
     }
     
     .footer_box{

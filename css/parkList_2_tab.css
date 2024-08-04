@@ -31,7 +31,6 @@ header{
     border: none;
     cursor: pointer;
     margin: 30px;
-    /* padding-top: 2.5%; */
 }
 
 
@@ -44,8 +43,6 @@ header{
 /* gnb 삼단바 메뉴 */
 .sideGnb {
     background: #1B371D;
-    /* width: 1000px; */
-    height: 960px;
     /* border: 1px solid red; */
     position: fixed;
     right: 0;
@@ -54,29 +51,50 @@ header{
     transition: all 0.3s ease 0s;
     z-index: 10;
     height: 100%;
-    display: flex;
+    /* display: flex; */
+    flex-direction: column;
     width: 100%;
+    height: 100%;
     align-items: center;
     justify-content: center;
 }
-    .sideGnb.on{
+  .sideGnb.on{
     transform: translateX(0%);
-    }
-    .sideGnbTop {
+  }
+  .sideGnb_group{
+    border: 1px solid white;
+    width: 96%;
+    margin-top: 2%;
+    margin: 0 auto;
+    margin-top: 2%;
+  }
+
+  .top{
+    border: 1px solid yellow;
+    width: 100%;
+    margin: 0 auto;
+    /* margin-top: -4%; */
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .sideGnbTop {
     width: 80%;
     /* border: 2px solid yellow; */
     /* margin-top: 41px; */
     /* margin-left: 100px; */
     /* height: 830px; */
     position:relative;
-    margin-top: 14%;
+    margin-top: 3%;
 }
 .sideGnbMenu {
-    /* border: 1px solid white; */
-    /* display: flex; */
-    position: relative;
-    /* margin-top: 80px; */
-    /* height: 830px; */
+    border: 1px solid red;
+    width: 100%;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .sideGnbMenu>li {
     font-size: 20px;
@@ -93,29 +111,28 @@ header{
 .sideGnbMenu>li:last-of-type{
     margin-bottom: 0px;
 }
-    .sideGnbMenu>li:hover{
+  .sideGnbMenu>li:hover{
     color: #F0CA50;
-    }
-    .sideGnbMenu>li>a {
+  }
+  .sideGnbMenu>li>a {
     border-right: 2px solid white;
     width: 300px;
     /* height: 210px; */
     /* background: #1B371D; */
     color: #F0CA50;
     display: flex;
-    /* padding-top: 23px; */
-    font-size: 41px;
-    /* margin-top: 40px; */
+    font-size: 50px;
+    margin-bottom: 8%;
     transition: all 0.4s ease 0s;
 }
-    
-    /* .menu_title3:hover{
+  
+  /* .menu_title3:hover{
     transform: scale(1.05)
-    } */
+  } */
 
 
 
-    .sideGnbMenu>li>ul {
+  .sideGnbMenu>li>ul {
     border-left: 1px solid white;
     padding-left: 20px;
     color: #fff;
@@ -125,13 +142,12 @@ header{
 .sideGnbMenu>li>ul>li {
     /* border: 1px solid white; */
     padding: 8px 0;
-    font-size: 34px;
 }
 
 
 
 
-    .top_close_btn{
+  .top_close_btn{
     width: 100px;
     height: 50px;
     font-size: 20px;
@@ -144,31 +160,28 @@ header{
     border: none;
     background: none;
     display: inline-block;
-    position: absolute;
-    right: -83px;
-    top: -260px;
+    /* position: absolute; */
+    right: -148px;
+    top: -223px;
     font-size: 30px;
     cursor: pointer;
-    }
-    .login_btn{
+  }
+  .login_btn{
     color: #fff;
-    font-size: 20px;
+    font-size: 23px;
     font-weight: 500;
-    position: absolute;
-    left: 10%;
-    top: 4%;
     border: 1px solid white;
     border-radius: 10px;
-    width: 90px;
+    width: 130px;
     height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
 
-    }
+  }
 
 
-    .btn_gnb_menu {
+  .btn_gnb_menu {
     background: none;
     width: 35px;
     height: 50px;
@@ -201,7 +214,7 @@ header{
 .parkList1_group{
     /* border: 1px solid white; */
     width: 90%;
-    margin-left: 4%;
+    margin: 0 auto;
     margin-top: 5%;
     display: flex;
     justify-content: space-between;
