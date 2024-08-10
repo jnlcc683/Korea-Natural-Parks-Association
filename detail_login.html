@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>한국자연공원협회 로그인 페이지</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/detail_login.css">
+    <link rel="stylesheet" href="./css/detail_login_tab.css">
+    <link rel="stylesheet" href="./css/detail_login_mo.css">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./js/mainpage.js"></script>
+    <script src="./js/slideable.js"></script>
+
+
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="sideGnb">
+        <div class="sideGnb_group">
+            <section class="top">
+                <a class="login_btn" href="./detail_login.html">LOGIN</a>
+                <button class="top_close_btn">╳</button>
+            </section>
+            <ul class="sideGnbMenu">
+                <li>
+                    <a class="menu_title1" href="./detail_introduce.html">협회소개</a>
+                </li>
+                <li>
+                    <a class="menu_title2" href="./detail_about_park.html">자연공원안내</a>
+                </li>
+                <li>
+                    <a class="menu_title3" href="./detail_greengroup.html">녹색사업단</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="all">
+        <header>
+            <div class="logo">
+                <h1 class="main_logo"><a href="#"><img src="./img/logo.png" alt="로고"></a></h1>
+            </div>
+
+            <button class="btn_gnb_menu"><img src="./img/menu_bar.png" alt="메뉴바 아이콘"></button>
+        </header>
+
+        <div class="login_page">
+            <div class="green_box">
+                <img src="./img/login_logo.png" alt="로그인 아이콘">
+                <h3 class="login_txt">
+                한국자연공원협회 회원님 <br>
+                반갑습니다!
+            </div>
+        </h3>
+    
+            <form action="">
+                <fieldset>
+                    <label class="user_id" for="user_id">아이디</label>
+                    <input type="text" id="user_id" required>
+                    <br>
+                    <label class="user_pw" for="user_pw">비밀번호</label>
+                    <input type="password" id="user_pw" required>
+                    <br>
+                    <input class="login" type="submit" value="로그인">
+                </fieldset>
+                <fieldset>
+                    <p class="que">아직 회원이 아니신가요?</p>
+                    <input class="join" type="submit" value="회원가입">
+                </fieldset>
+            </form>
+        </div>
+
+        <footer>
+            <!-- <img src="./img/footer_bg.png" alt="푸터 배경"> footer 배경사진 넣기 -->
+    
+            <div class="logo_foot_box">
+                <img class="logo_foot" src="./img/logo.png" alt="로고 사진">
+            </div>
+        
+        
+                    <ul class="foot_menu">
+                        <li>
+                            <a href="#">이용안내</a>
+                        </li>
+                        <li>
+                            <a href="#">이용약관</a>
+                        </li>
+                        <li>
+                            <a href="#">개인정보취급방침</a>
+                        </li>
+                        <li>
+                            <a href="#">이메일문의</a>
+                        </li>
+                    </ul>
+        
+                <address>
+                    122-040 서울특별시 은평구 진흥로 215(불광동) / 전화: 02)358-2421, 2430 <br>
+                    팩스: 02)358-4990/ 이메일 npak2420@hanmail.net
+                </address>
+        
+                <p class="copy">Copyrightⓒ한국자연공원협회, All Rights Reserved.</p>
+
+                <fieldset>
+                    <!-- <label for="family_site">패밀리 사이트</label> -->
+                    <select id="family_site">
+                        <option selected>===패밀리사이트===</option> 
+                        <option>국립공원관리공단</option>
+                        <option>에코투어</option>
+                        <option>국립공원연구원</option>
+                        <option>철새연구센터</option>
+                        <option>멸종위기종 복원센터</option>
+                        <option>환경부</option>
+                        <option>국세청</option>
+                        <option>국민공익위원회</option>
+                    </select>
+                </fieldset>
+        </footer>
+    </div>
+</body>
+</html>

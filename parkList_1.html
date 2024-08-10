@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>국립공원</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/parkList_1.css">
+    <link rel="stylesheet" href="./css/parkList_1_tab.css">
+    <link rel="stylesheet" href="./css/parkList_1_mo.css">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./js/detail_about_park.js"></script>
+    <script src="./js/slideable.js"></script>
+
+    <!-- Noto Sans KR -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Orbitron:wght@400..900&family=Zen+Dots&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="sideGnb">
+        <div class="sideGnb_group">
+            <section class="top">
+                <a class="login_btn" href="./detail_login.html">LOGIN</a>
+                <button class="top_close_btn">╳</button>
+            </section>
+            <ul class="sideGnbMenu">
+                <li>
+                    <a class="menu_title1" href="./detail_introduce.html">협회소개</a>
+                </li>
+                <li>
+                    <a class="menu_title2" href="./detail_about_park.html">자연공원안내</a>
+                </li>
+                <li>
+                    <a class="menu_title3" href="./detail_greengroup.html">녹색사업단</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="all">
+        <header>
+            <div class="logo">
+                <h1 class="main_logo"><a href="./index.html"><img src="./img/logo.png" alt="로고"></a></h1>
+            </div>
+
+            <button class="btn_gnb_menu"><img src="./img/menu_bar.png" alt="메뉴바 아이콘"></button>
+        </header>
+
+
+        <div class="parkList1">
+            <section>
+                <h3 class="parkList1_title">국립공원</h3>
+                <!-- <p class="parkList1_desc">2019.12.31일 기준</p> -->
+            </section>
+            <dl class="parkList1_group">
+                <dl class="parkList1_a">
+                    <dt>공원명</dt>
+                    <dd>지리산</dd>
+                    <dd>경주</dd>
+                    <dd>계룡산</dd>
+                    <dd>한려해상</dd>
+                    <dd>설악산</dd>
+                    <dd>속리산</dd>
+                    <dd>한라산</dd>
+                    <dd>내장산</dd>
+                    <dd>가야산</dd>
+                    <dd>덕유산</dd>
+                    <dd>오대산</dd>
+                    <dd>주왕산</dd>
+                    <dd>태안해안</dd>
+                    <dd>다도해상</dd>
+                    <dd>북한산</dd>
+                    <dd>치악산</dd>
+                    <dd>월악산</dd>
+                    <dd>소백산</dd>
+                    <dd>변산반도</dd>
+                    <dd>월출산</dd>
+                    <dd>무등산</dd>
+                    <dd>태백산</dd>
+                </dl>    
+    
+                <dl class="parkList1_b">
+                    <dt>위치</dt>
+                    <dd>전남·북, 경남</dd>
+                    <dd>경북</dd>
+                    <dd>충남, 대전</dd>
+                    <dd>전남, 경남</dd>
+                    <dd>강원</dd>
+                    <dd>충북, 경북</dd>
+                    <dd>제주</dd>
+                    <dd>전남·북</dd>
+                    <dd>경남·북</dd>
+                    <dd>전북, 경남</dd>
+                    <dd>강원</dd>
+                    <dd>경북</dd>
+                    <dd>충남</dd>
+                    <dd>전남</dd>
+                    <dd>서울, 경기</dd>
+                    <dd>강원</dd>
+                    <dd>충북, 경북</dd>
+                    <dd>충북, 경북</dd>
+                    <dd>전북</dd>
+                    <dd>전남</dd>
+                    <dd>광주, 전남</dd>
+                    <dd>강원, 경북(봉화)</dd>
+                </dl>
+    
+                <dl class="parkList1_c">
+                    <dt>지정년월일</dt>
+                    <dd>1967. 12. 29</dd>
+                    <dd>1968. 12. 31</dd>
+                    <dd>1968. 12. 31</dd>
+                    <dd>1968. 12. 31</dd>
+                    <dd>1970. 3. 24</dd>
+                    <dd>1970. 3. 24</dd>
+                    <dd>1970. 3. 24</dd>
+                    <dd>1971. 11. 17</dd>
+                    <dd>1972. 10. 13</dd>
+                    <dd>1975. 2. 1</dd>
+                    <dd>1975. 2. 1</dd>
+                    <dd>1976. 3. 30</dd>
+                    <dd>1978. 10. 20</dd>
+                    <dd>1981. 12. 23</dd>
+                    <dd>1983. 4. 2</dd>
+                    <dd>1984. 12. 31</dd>
+                    <dd>1984. 12. 31</dd>
+                    <dd>1987. 12. 14</dd>
+                    <dd>1988. 6. 11</dd>
+                    <dd>1988. 6. 11</dd>
+                    <dd>1913. 3. 4</dd>
+                    <dd>1916. 8. 22</dd>
+                </dl>
+
+                <dl class="parkList1_d">
+                    <dt>면적(㎢)</dt>
+                    <dd>483.022</dd>
+                    <dd>136.550</dd>
+                    <dd>65.335</dd>
+                    <dd>535.676</dd>
+                    <dd>398.237</dd>
+                    <dd>274.766</dd>
+                    <dd>153.332</dd>
+                    <dd>80.708</dd>
+                    <dd>76.256</dd>
+                    <dd>229.430</dd>
+                    <dd>326.348</dd>
+                    <dd>105.595</dd>
+                    <dd>377.019</dd>
+                    <dd>2,266.221</dd>
+                    <dd>76.922</dd>
+                    <dd>175.668</dd>
+                    <dd>287.571</dd>
+                    <dd>322.011</dd>
+                    <dd>153.934</dd>
+                    <dd>56.220</dd>
+                    <dd>75.425</dd>
+                    <dd>70.052</dd>
+                </dl>
+        </dl>
+        </div>
+
+
+        <footer>
+            <!-- <img src="./img/footer_bg.png" alt="푸터 배경"> footer 배경사진 넣기 -->
+    
+            <div class="logo_foot_box">
+                <img class="logo_foot" src="./img/logo.png" alt="로고 사진">
+            </div>
+        
+        
+                    <ul class="foot_menu">
+                        <li>
+                            <a href="#">이용안내</a>
+                        </li>
+                        <li>
+                            <a href="#">이용약관</a>
+                        </li>
+                        <li>
+                            <a href="#">개인정보취급방침</a>
+                        </li>
+                        <li>
+                            <a href="#">이메일문의</a>
+                        </li>
+                    </ul>
+        
+                <address>
+                    122-040 서울특별시 은평구 진흥로 215(불광동) / 전화: 02)358-2421, 2430 <br>
+                    팩스: 02)358-4990/ 이메일 npak2420@hanmail.net
+                </address>
+        
+                <p class="copy">Copyrightⓒ한국자연공원협회, All Rights Reserved.</p>
+    
+                <fieldset>
+                    <!-- <label for="family_site">패밀리 사이트</label> -->
+                    <select id="family_site">
+                        <option selected>===패밀리사이트===</option> 
+                        <option>국립공원관리공단</option>
+                        <option>에코투어</option>
+                        <option>국립공원연구원</option>
+                        <option>철새연구센터</option>
+                        <option>멸종위기종 복원센터</option>
+                        <option>환경부</option>
+                        <option>국세청</option>
+                        <option>국민공익위원회</option>
+                    </select>
+                </fieldset>
+        </footer>
+    </div>
+
+</body>
+</html>

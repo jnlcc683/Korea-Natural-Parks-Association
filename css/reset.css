@@ -1,0 +1,9 @@
+*{margin:0; padding:0;}
+a{color:inherit; text-decoration: none;}
+ul,ol{list-style: none;}
+h1,h2,h3,h4,h5,h6,strong,b{font-size:inherit; font-weight: inherit;}
+i,address,em{font-style:inherit;}
+img{max-width: 100%;}
+table{border-collapse: collapse;}
+input{outline: none;}
+html{font-family: "Noto Sans KR", sans-serif;}

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2. 자연공원안내 상세페이지</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/about_park.css">
+    <link rel="stylesheet" href="./css/about_park_tab.css">
+    <link rel="stylesheet" href="./css/about_park_mo.css">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./js/detail_about_park.js"></script>
+    <script src="./js/slideable.js"></script>
+
+    <!-- swiper cdn설치 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+
+
+
+    <!-- Noto Sans KR -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Orbitron:wght@400..900&family=Zen+Dots&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="sideGnb">
+        <div class="sideGnb_group">
+            <section class="top">
+                <a class="login_btn" href="./detail_login.html">LOGIN</a>
+                <button class="top_close_btn">╳</button>
+            </section>
+            <ul class="sideGnbMenu">
+                <li>
+                    <a class="menu_title1" href="./detail_introduce.html">협회소개</a>
+                </li>
+                <li>
+                    <a class="menu_title2" href="./detail_about_park.html">자연공원안내</a>
+                </li>
+                <li>
+                    <a class="menu_title3" href="./detail_greengroup.html">녹색사업단</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="all">
+        <header>
+            <div class="logo">
+                <h1 class="main_logo"><a href="./index.html"><img src="./img/logo.png" alt="로고"></a></h1>
+            </div>
+
+            <button class="btn_gnb_menu"><img src="./img/menu_bar.png" alt="메뉴바 아이콘"></button>
+
+
+        </header>
+
+        <div class="page1">
+            <div class="page1_green_group">
+                <p class="page1_title">
+                    자연공원에 <br>
+                    대하여
+                </p>
+                <p class="page1_desc">
+                    국립공원들의 <br>
+                    상세정보를 확인하실 수 있습니다. 
+                </p>
+            </div>
+
+            <div class="park_big_group">
+                    <section class="first">
+                        <h3 class="park_title">국립공원</h3>
+                        <a href="./parkList_1.html" target="blank" class="park_ex">자세히 보기</a>
+                    </section>
+                    <section class="second">
+                        <h3 class="park_title">도립공원</h3>
+                        <a href="./parkList_2.html" class="park_ex">자세히 보기</a>
+                    </section>
+                    <section class="third">
+                        <h3 class="park_title">군립공원</h3>
+                        <a href="./parkList_3.html" class="park_ex">자세히 보기</a>
+                    </section>
+                    <section class="fourth">
+                        <h3 class="park_title">국가지질공원</h3>
+                        <a href="./parkList_4.html" class="park_ex">자세히 보기</a>
+                    </section>
+            </div>
+    </div>
+
+    <!-- 2페이지 -->
+    <div class="page2">
+        <p class="page2_filter"></p>
+        <div class="page2_green_group">
+            <p class="page2_title">
+                자연환경해설 <br>
+                기본교육
+            </p>
+            <p class="page2_desc">
+                자연생태 우수지역의 전문적인 해설과 안내를 위한 <br>
+                자연환경해설사 기본양성 과정교육을 실시합니다.
+            </p>
+        </div>
+        <div class="contentGroup">
+            <dl>
+                <dt>교육명</dt>
+                <dd>자연환경해설사 기본양성과정</dd>
+            </dl>
+
+            <dl>
+                <dt>교육일정</dt>
+                <dd>
+                    2024년 3월 16일 ~ 4월 14일(매주 토,일) <br>
+                    2024년 9월 21일 ~ 10월 20일(매주 토,일)
+                </dd>
+            </dl>
+
+            <dl>
+                <dt>교육과목</dt>
+                <dd>15과목 80시간</dd>
+            </dl>
+
+            <dl>
+                <dt>운영대상</dt>
+                <dd>자연환경해설분야 관심있는 자</dd>
+            </dl>
+
+            <dl>
+                <dt>교육비</dt>
+                <dd>80만원(교육실비 본인부담)</dd>
+            </dl>
+
+            <dl>
+                <dt>신청방법</dt>
+                <dd>신청서 다운로드 후 이메일 또는 우편접수</dd>
+            </dl>
+
+            <dl>
+                <dt>문의</dt>
+                <dd>한국자연공원협회 사무처 02)358-2421, 2430</dd>
+            </dl>
+        </div>
+
+        <section class="btn_box">
+            <a href="./download/nature_20230601.hwp" class="download">교육 신청서 다운로드</a>
+        </section>
+    </div>
+
+    <footer>
+        <!-- <img src="./img/footer_bg.png" alt="푸터 배경"> footer 배경사진 넣기 -->
+
+        <div class="logo_foot_box">
+            <img class="logo_foot" src="./img/logo.png" alt="로고 사진">
+        </div>
+    
+    
+                <ul class="foot_menu">
+                    <li>
+                        <a href="#">이용안내</a>
+                    </li>
+                    <li>
+                        <a href="#">이용약관</a>
+                    </li>
+                    <li>
+                        <a href="#">개인정보취급방침</a>
+                    </li>
+                    <li>
+                        <a href="#">이메일문의</a>
+                    </li>
+                </ul>
+    
+            <address>
+                122-040 서울특별시 은평구 진흥로 215(불광동) / 전화: 02)358-2421, 2430 <br>
+                팩스: 02)358-4990/ 이메일 npak2420@hanmail.net
+            </address>
+    
+            <p class="copy">Copyrightⓒ한국자연공원협회, All Rights Reserved.</p>
+
+            <fieldset>
+                <!-- <label for="family_site">패밀리 사이트</label> -->
+                <select id="family_site">
+                    <option selected>===패밀리사이트===</option> 
+                    <option>국립공원관리공단</option>
+                    <option>에코투어</option>
+                    <option>국립공원연구원</option>
+                    <option>철새연구센터</option>
+                    <option>멸종위기종 복원센터</option>
+                    <option>환경부</option>
+                    <option>국세청</option>
+                    <option>국민공익위원회</option>
+                </select>
+            </fieldset>
+    </footer>
+
+</body>
+</html>

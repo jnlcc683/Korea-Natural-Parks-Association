@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>도립공원</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/parkList_2.css">
+    <link rel="stylesheet" href="./css/parkList_2_tab.css">
+    <link rel="stylesheet" href="./css/parkList_2_mo.css">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./js/detail_about_park.js"></script>
+    <script src="./js/slideable.js"></script>
+
+    <!-- Noto Sans KR -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Orbitron:wght@400..900&family=Zen+Dots&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="sideGnb">
+        <div class="sideGnb_group">
+            <section class="top">
+                <a class="login_btn" href="./detail_login.html">LOGIN</a>
+                <button class="top_close_btn">╳</button>
+            </section>
+            <ul class="sideGnbMenu">
+                <li>
+                    <a class="menu_title1" href="./detail_introduce.html">협회소개</a>
+                </li>
+                <li>
+                    <a class="menu_title2" href="./detail_about_park.html">자연공원안내</a>
+                </li>
+                <li>
+                    <a class="menu_title3" href="./detail_greengroup.html">녹색사업단</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="all">
+        <header>
+            <div class="logo">
+                <h1 class="main_logo"><a href="./index.html"><img src="./img/logo.png" alt="로고"></a></h1>
+            </div>
+
+            <button class="btn_gnb_menu"><img src="./img/menu_bar.png" alt="메뉴바 아이콘"></button>
+        </header>
+
+        <div class="parkList1">
+            <section>
+                <h3 class="parkList1_title">도립공원</h3>
+                <!-- <p class="parkList1_desc">2019.12.31일 기준</p> -->
+            </section>
+            <dl class="parkList1_group">
+                <dl class="parkList1_a">
+                    <dt>공원명</dt>
+                    <dd>금오산</dd>
+                    <dd>남한산성</dd>
+                    <dd>모악산</dd>
+                    <dd>덕산</dd>
+                    <dd>칠갑산</dd>
+                    <dd>대둔산</dd>
+                    <dd>마이산</dd>
+                    <dd>가지산</dd>
+                    <dd>조계산</dd>
+                    <dd>두륜산</dd>
+                    <dd>선운산</dd>
+                    <dd>팔공산</dd>
+                    <dd>문경새재</dd>
+                    <dd>경포</dd>
+                    <dd>청량산</dd>
+                    <dd>연화산</dd>
+                    <dd>고복저수지</dd>
+                    <dd>천관산</dd>
+                    <dd>연인산</dd>
+                    <dd>신안갯벌</dd>
+                    <dd>무안갯벌</dd>
+                    <dd>추자해양</dd>
+                    <dd>서귀포해양</dd>
+                    <dd>마라도해양</dd>
+                    <dd>성산일출해양</dd>
+                    <dd>우도해양</dd>
+                    <dd>수리산</dd>
+                    <dd>제주곶자왈</dd>
+                    <dd>벌교갯벌</dd>
+                    <dd>불갑산</dd>
+                </dl>    
+    
+                <dl class="parkList1_b">
+                    <dt>위치</dt>
+                    <dd>경북(구미,칠곡,김천)</dd>
+                    <dd>경기(광주,하남,성남)</dd>
+                    <dd>전북(김제,완주,전주)</dd>
+                    <dd>충남(예산,서산)</dd>
+                    <dd>충남(청양)</dd>
+                    <dd>전북(완주), <br>
+                        충남(논산,금산)</dd>
+                    <dd>전북(진안)</dd>
+                    <dd>울산(울주,남구), <br>
+                        경남(밀양,양산)</dd>
+                    <dd>전남(승주,순천)</dd>
+                    <dd>전남(해남)</dd>
+                    <dd>전북(고창)</dd>
+                    <dd>대구, <br>
+                        경북(칠곡,군위,경산,영천)</dd>
+                    <dd>경북(문경)</dd>
+                    <dd>강원(강릉)</dd>
+                    <dd>경북(봉화,안동)</dd>
+                    <dd>경남(고성)</dd>
+                    <dd>세종(연서)</dd>
+                    <dd>전남(장흥)</dd>
+                    <dd>경기(가평)</dd>
+                    <dd>전남(신안)</dd>
+                    <dd>전남(무안)</dd>
+                    <dd>제주(추자면)</dd>
+                    <dd>제주(서귀포시)</dd>
+                    <dd>제주(서귀포시)</dd>
+                    <dd>제주(서귀포시)</dd>
+                    <dd>제주(서귀포시)</dd>
+                    <dd>경기(안양,안산,군포)</dd>
+                    <dd>제주(서귀포시)</dd>
+                    <dd>전남(보성)</dd>
+                    <dd>전남(영광)</dd>
+                </dl>
+    
+                <dl class="parkList1_c">
+                    <dt>지정년월일</dt>
+                    <dd>1970.6.1</dd>
+                    <dd>1971.3.17</dd>
+                    <dd>1971.12.2</dd>
+                    <dd>1973.3.6</dd>
+                    <dd>1973.3.6</dd>
+                    <dd>1977.3.23</dd>
+                    <dd>1979.10.16</dd>
+                    <dd>1979.11.5</dd>
+                    <dd>1979.12.26</dd>
+                    <dd>1979.12.26	</dd>
+                    <dd>1979.12.27</dd>
+                    <dd>1980.5.13</dd>
+                    <dd>1981.6.4</dd>
+                    <dd>1982.6.26</dd>
+                    <dd>1982.8.21</dd>
+                    <dd>1983.9.29</dd>
+                    <dd>1991.1.17</dd>
+                    <dd>1998.10.13</dd>
+                    <dd>2005.9.15</dd>
+                    <dd>2008.6.5</dd>
+                    <dd>2008.6.5</dd>
+                    <dd>2008.9.19</dd>
+                    <dd>2008.9.19</dd>
+                    <dd>2008.9.19</dd>
+                    <dd>2008.9.19</dd>
+                    <dd>2008.9.19</dd>
+                    <dd>2009.7.16</dd>
+                    <dd>2011.12.30</dd>
+                    <dd>2016.1. 28</dd>
+                    <dd>2019.1. 10</dd>
+                </dl>
+    
+                <dl class="parkList1_d">
+                    <dt>면적(㎢)</dt>
+                    <dd>37.262</dd>
+                    <dd>35.166</dd>
+                    <dd>43.309</dd>
+                    <dd>19.859</dd>
+                    <dd>31.068</dd>
+                    <dd>59.996</dd>
+                    <dd>17.220</dd>
+                    <dd>104.354</dd>
+                    <dd>26.250</dd>
+                    <dd>32.91</dd>
+                    <dd>43.683</dd>
+                    <dd>125.232</dd>
+                    <dd>5.478</dd>
+                    <dd>1.689</dd>
+                    <dd>49.509</dd>
+                    <dd>21.847</dd>
+                    <dd>1.949</dd>
+                    <dd>7.94</dd>
+                    <dd>37.691</dd>
+                    <dd>162.000</dd>
+                    <dd>37.123</dd>
+                    <dd>95.292</dd>
+                    <dd>19.540</dd>
+                    <dd>49.755</dd>
+                    <dd>16.156</dd>
+                    <dd>25.863</dd>
+                    <dd>7.035</dd>
+                    <dd>1.547</dd>
+                    <dd>23.068</dd>
+                    <dd>6.89</dd>
+                </dl>
+        </dl>
+        
+    </div>
+    
+    <footer>
+        <!-- <img src="./img/footer_bg.png" alt="푸터 배경"> footer 배경사진 넣기 -->
+
+        <div class="logo_foot_box">
+            <img class="logo_foot" src="./img/logo.png" alt="로고 사진">
+        </div>
+    
+    
+                <ul class="foot_menu">
+                    <li>
+                        <a href="#">이용안내</a>
+                    </li>
+                    <li>
+                        <a href="#">이용약관</a>
+                    </li>
+                    <li>
+                        <a href="#">개인정보취급방침</a>
+                    </li>
+                    <li>
+                        <a href="#">이메일문의</a>
+                    </li>
+                </ul>
+    
+            <address>
+                122-040 서울특별시 은평구 진흥로 215(불광동) / 전화: 02)358-2421, 2430 <br>
+                팩스: 02)358-4990/ 이메일 npak2420@hanmail.net
+            </address>
+    
+            <p class="copy">Copyrightⓒ한국자연공원협회, All Rights Reserved.</p>
+
+            <fieldset>
+                <!-- <label for="family_site">패밀리 사이트</label> -->
+                <select id="family_site">
+                    <option selected>===패밀리사이트===</option> 
+                    <option>국립공원관리공단</option>
+                    <option>에코투어</option>
+                    <option>국립공원연구원</option>
+                    <option>철새연구센터</option>
+                    <option>멸종위기종 복원센터</option>
+                    <option>환경부</option>
+                    <option>국세청</option>
+                    <option>국민공익위원회</option>
+                </select>
+            </fieldset>
+    </footer>
+    </div>
+</body>
+</html>
