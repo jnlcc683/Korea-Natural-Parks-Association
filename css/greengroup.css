@@ -279,6 +279,12 @@ header {
 }
 .course_desc{
     font-size: 22px;
+    word-break: keep-all;
+    /* border: 1px solid white; */
+    width: 90%;
+}
+.course_desc br{
+    display: none;
 }
 
 

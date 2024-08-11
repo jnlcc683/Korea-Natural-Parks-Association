@@ -68,7 +68,7 @@
     border: 1px solid yellow;
     width: 100%;
     margin: 0 auto;
-    margin-top: 3%;
+    margin-top: 13%;
     display: flex;
     justify-content: space-between;
   }
@@ -76,7 +76,7 @@
   .sideGnbTop {
     width: 80%;
     /* border: 2px solid yellow; */
-    /* margin-top: 41px; */
+    margin-top: 25%;
     /* margin-left: 100px; */
     /* height: 830px; */
     position:relative;
