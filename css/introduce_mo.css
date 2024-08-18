@@ -298,8 +298,8 @@ header{
         /* padding-left: 22%; */
         padding-top: 6%;
         padding-bottom: 6%;
-        overflow: scroll;
-        height: 420px;
+        /* overflow: scroll; */
+        /* height: 420px; */
         width: 84%;
     }
     .task_list>section{

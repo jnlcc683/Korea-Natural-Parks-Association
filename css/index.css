@@ -66,7 +66,7 @@ header {
     transform: translateX(0%);
   }
   .sideGnb_group{
-    border: 1px solid white;
+    /* border: 1px solid white; */
     width: 96%;
     margin-top: 2%;
     margin: 0 auto;
@@ -74,7 +74,7 @@ header {
   }
 
   .top{
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     width: 100%;
     margin: 0 auto;
     /* margin-top: -4%; */
@@ -92,7 +92,7 @@ header {
     margin-top: 3%;
 }
 .sideGnbMenu {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 100%;
     margin-top: 10%;
     display: flex;
@@ -532,7 +532,7 @@ header {
     display: flex;
     flex-direction: column;
     position: relative;
-    padding-bottom: 100%;
+    padding-bottom: 30%;
 }
 .btns_inner_content {
     /* border: 2px solid purple; */
@@ -577,141 +577,58 @@ header {
 }
 
 .btns_group{
-    /* border: 1px solid red; */
+    /* border: 2px solid red; */
     width: 800px;
     height: 550px;
     /* margin-left: 450px; */
     display: flex;
     margin-top: 150px;
-    position: relative;
-    margin-left: 100px;
 }
+
+
+.box_inner{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-around;
+    width: 83%;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
 .join{
     /* border: 1px solid black; */
     /* margin-right: 3%; */
-    margin-top: 35%;
-    margin-left: 10%;
-    position: absolute;
-    left: 5%;
-    top: 9%;
 }
-.join_box{
+.box{
     /* border: 2px solid blue; */
     width: 280px;
     height: 250px;
-    margin-top: 90%;
-    /* margin-right: 10%; */
     background: #1B371D;
     color: #fff;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    border: none;
     box-shadow: 5px 5px 5px #c2c0c0;
     /* margin-left: 50%; */
 }
-.join_box_desc{
+.box_desc{
     /* border: 1px solid yellow; */
-    width: 250px;
-    margin-top: 30px;
     font-family: "myfont";
     font-size: 20px;
-    font-weight: 400;
-    transform: translateX(12px);
+    width: 100%;
+    text-align: center;
+    padding-top: 14%;
 }
-.join_box_title{
-    margin-top: 28px;
+.box_title{
     /* border: 1px solid pink; */
     font-family: "myfont";
     font-size: 36px;
     font-weight: 600;
-    transform: translateX(12px);
-}
-
-.library{
-    /* border: 1px solid black; */
-    /* margin-right: 10%; */
-    margin-top: 20%;
-    position: absolute;
-    right: 30%;
-    top: 30%;
-}
-.library_box{
-    /* border: 2px solid blue;  */
-    width: 280px;
-    height: 250px;
-    margin-top: 95%;
-    /* margin-right: 10%; */
-    background: #fff;
-    color: #1B371D;
+    text-align: center;
+    margin-top: 9%;
+    height: 60%;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    border: none;
-    box-shadow: 5px 5px 5px #c2c0c0;
-    /* margin-left: 100%; */
-}
-.library_box_desc{
-    /* border: 1px solid yellow; */
-    width: 250px;
-    margin-top: 30px;
-    font-family: "myfont";
-    font-size: 20px;
-    font-weight: 400;
-    transform: translateX(10px);
-}
-.library_box_title{
-    margin-top: 28px;
-    /* border: 1px solid pink; */
-    font-family: "myfont";
-    font-size: 36px;
-    font-weight: 600;
-    transform: translateX(15px);
+    justify-content: center;
+    align-items: center;
 }
 
-.email{
-    /* border: 2px solid hotpink; */
-    position: absolute;
-    left: 15%;
-    top: 66%;
-    /* width: 23%; */
-    height: 300px;
-}
-
-.email_box{
-    /* border: 2px solid blue; */
-    width: 280px;
-    height: 250px;
-    /* margin-top: 131%; */
-    /* margin-right: 25px; */
-    background: #fff;
-    color: #1B371D;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    border: none;
-    box-shadow: 5px 5px 5px #c2c0c0;
-    /* position: absolute; */
-    right: 2.5%;
-    top: 72%;
-}
-.email_box_desc{
-    /* border: 1px solid yellow; */
-    width: 250px;
-    margin-top: 30px;
-    font-family: "myfont";
-    font-size: 20px;
-    font-weight: 400;
-    transform: translateX(15px);
-}
-.email_box_title{
-    margin-top: 28px;
-    /* border: 1px solid pink; */
-    font-family: "myfont";
-    font-size: 36px;
-    font-weight: 600;
-    transform: translateX(14px);
-}
 
 
 /* footer */
